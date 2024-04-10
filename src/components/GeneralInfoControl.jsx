@@ -48,7 +48,6 @@ function GeneralInfoControl({generalInfo, generalInfoSubmit}) {
       (<GeneralInfoForm generalInfo={generalInfo} onClick={handleSubmitClick}></GeneralInfoForm>) 
       : 
       (<button onClick={handleEditClick} id='general_info_edit'>Edit</button>)}
-      
     </div>
   )
 }
