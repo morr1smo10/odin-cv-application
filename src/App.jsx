@@ -48,7 +48,7 @@ function App() {
         generalInfoSubmit={handleGeneralInfoSubmit} 
         educationInfo={educationInfo}
         educationInfoSubmit={handleEducationInfoSubmit}></Control>
-        <Display generalInfo={generalInfo}></Display>
+        <Display generalInfo={generalInfo} educationInfo={educationInfo}></Display>
       </div>
     </>
   )
